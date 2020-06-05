@@ -1,0 +1,10 @@
+.mobile-navbar {
+  display: flex;
+  justify-content: space-between;
+
+  & .hamburger-menu {
+    width: 24px;
+    height: 24px;
+    cursor: pointer
+  }
+}
