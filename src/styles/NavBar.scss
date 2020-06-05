@@ -1,10 +1,36 @@
 .mobile-navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  border-bottom: 1px solid #000;
+  width: 100%;
 
-  & .hamburger-menu {
+  & .header-mobile-nav-toggle {
     width: 24px;
     height: 24px;
-    cursor: pointer
+    cursor: pointer;
+    position: relative;
+    display: block;
+    border: none;
+  }
+
+  & span {
+      margin: 6px;
+      background: #000;
+      height: 2px;
+      width: 24px;
+      display: block;
+  }
+
+  & .logo {
+    width: 15rem;
+  }
+
+  & .shopping-cart-icon {
+    font-size: 1.5rem;
+    position: relative;
+    right: 1rem;
+    top: 0.5rem;
   }
 }

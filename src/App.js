@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
 import NavBar from './components/NavBar'
+import HeroImage from './components/HeroImage'
+
 
 class App extends Component {
   render() {
-    return <NavBar />
+    return (
+    <div className="container">
+      <NavBar />
+      <HeroImage />
+    </div> 
+    )
   }
 }
 
