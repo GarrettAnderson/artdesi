@@ -5,7 +5,8 @@ import styles from '../styles/HeroImage.scss'
 class HeroImage extends Component {
   render() {
     return (
-      <img src={HeroImg} className="hero-image" alt="Hero Image" />
+      // <img src={HeroImg} className="hero-image" alt="Hero Image" />
+      <div className="hero-image"></div>
     );
   }
 }
