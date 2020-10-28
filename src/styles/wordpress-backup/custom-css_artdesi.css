@@ -1,0 +1,49 @@
+/* HEADER NAV CUSTOM  */
+
+button.menu-toggle {
+    display: none;
+}
+
+.storefront-handheld-footer-bar {
+	display: none;
+}
+
+header#masthead {
+    position: fixed;
+    z-index: -1;
+	  width: 100%;
+		background: #000;
+/* clip-path: polygon(0 0, 100% 0, 50% 100%, 50% 99%); */
+		height: 28rem
+}
+
+
+header#masthead:before {
+	    border-style: solid;
+			border-width: 83px 50vw 0;
+			height: 0;
+/* 			width: 100vw; */
+			border-color: transparent #fff;
+			top: 365px;
+			left: 0;
+			right: 0;
+			position: absolute;
+}
+
+
+.site-main {
+    /* margin-bottom: 2.617924em; */
+    padding-top: 11rem;
+}
+
+section.related.products {
+    display: none;
+}
+
+.site-branding .site-title a {
+	color: #fff;
+}
+
+.wc-block-grid {
+	margin-top: -3rem;
+}
