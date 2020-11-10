@@ -1,49 +1,555 @@
-/* HEADER NAV CUSTOM  */
+body {
+/* 	background-image: url("https://artanddesi.com/wp-content/uploads/2020/10/jude-beck-ciMauT_dyJs-unsplash.jpg");
+	background-image: url("https://artanddesi.com/wp-content/uploads/2020/10/shapelined-_JBKdviweXI-unsplash.jpg"); */
+
+	background-image: url("https://artanddesi.com/wp-content/uploads/2020/10/nordwood-themes-KcsKWw77Ovw-unsplash-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.woo-variation-product-gallery-thumbnail-columns-2 .woo-variation-gallery-thumbnail-slider:not(.slick-initialized)>div {
+    --thumb-wrapper-width: 0;
+}
+
+/* div.wpforms-container-full .wpforms-form button[type=submit] {
+    background: url(https://artanddesi.com/wp-content/uploads/2020/10/textarea-border5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    height: -5rem;
+    display: flex;
+    padding: 7rem;
+} */
+
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium, div.wpforms-container-full .wpforms-form select.wpforms-field-medium, div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+	max-width: 100% !important;
+}
+
+/* HEADER CUSTOM STYLES */
 
 button.menu-toggle {
+	display: none;
+}
+
+.site-header {
+	position: relative;
+	width: 100%;
+	clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+	height: 20rem;
+/* 	background-image: linear-gradient(to top, rgba(253,187,45,0.5),transparent)),url("https://artanddesi.com/wp-content/uploads/2020/10/header-background-1.png"); */
+	background-image: linear-gradient(to top, rgba(253,187,45,0.6), rgba(255,255,255,0.9)), url("https://artanddesi.com/wp-content/uploads/2020/10/header-background-1.png");
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	margin-bottom: 0px !important;
+	z-index: -1;
+}
+
+.widget_shopping_cart_content {
+	display: none;
+}
+
+ul.nav-menu li a {
+    text-transform: uppercase;
+	  color: #252766;
+/* 		color: #747474; */
+/* 			color: #628ba6; */
+		font-weight: 600;
+		font-size: 18px;
+}
+
+.site-header-cart .cart-contents {
+	color: #252766 !important;
+}
+
+span.woocommerce-Price-amount.amount {
+	color: #252766;
+}
+
+span.count {
+	color: #252766 !important;
+}
+
+span.woocommerce-Price-amount.amount span {
+	color: #252766 !important;
+}
+
+/* .about-filigree {
+	background-size: contain;
+	background-repeat: no-repeat;
+} */
+
+.widget.woocommerce.widget_shopping_cart.sub-menu--is-touch-device {
+	display: none;
+}
+
+.site-footer {
+	background-image:linear-gradient(to Bottom, rgba(255,255,255,0.3), rgba(253,187,45,0.1)), url(https://artanddesi.com/wp-content/uploads/2020/10/jude-beck-ciMauT_dyJs-unsplash.jpg);
+	background-size: cover;
+	color: #252766 !important;
+	clip-path: polygon(0 6.9%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.footer-widgets {
+	margin-top: 3rem;
+}
+/*
+.main-navigation div.menu:last-child {
+    display: block;
+    background-image: url(https://artanddesi.com/wp-content/uploads/2020/10/jude-beck-J1noPUvNx9s-unsplash-scaled.jpg);
+    background-size: contain;
+}
+*/
+
+
+:root .editor-styles-wrapper .has-white-background-color, :root .has-white-background-color {
+	background: transparent;
+}
+
+/* 	.wp-block-cover.has-white-background-color.has-background-dim.is-position-center-center.about-filigree {
+		background-size: cover;
+	} */
+
+.about-filigree {
+/* 		background: transparent; */
+		border: 1px solid #fff;
+    background-color: #fff;
+    padding: 1rem;
+    max-width: 100%;
+    margin: 6rem auto 0rem;
+}
+
+.about-filigree .wp-block-cover__inner-container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+.filigree-section-text-content {
+    width: 80% !important;
+    padding-top: 0 !important;
+    padding-bottom: 0%!important;
+    text-align: justify;
+}
+
+.site-content .col-full {
+	right: 0px;
+	left: 0px;
+}
+
+.upgraded-shirt-section-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/* 	max-width: 400px; */
+  margin: 0 auto;
+}
+
+.upgraded-shirt-section-title img {
+    max-width: 450px;
+}
+
+.upgraded-shirt-section-title .wp-block-media-text__content {
+    position: absolute;
+		background-color: #fff;
+    display: flex;
+    justify-content: center;
+		max-width: 268px;
+}
+
+.upgraded-shirt-section-title  .has-large-font-size {
+	transform: translateY(18px);
+}
+
+/* .shirt-section-title {
+	background: url("https://artanddesi.com/wp-content/uploads/2020/10/textarea-border5.png");
+	background-position: center;
+	position: relative;
+	    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.shirt-section-title::before {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+		width:100%;
+		max-width: 55vw;
+    margin: 0 auto;
+		z-index: -1;
+		position: absolute;
+		background: #fff;
+/* 	background: url("https://artanddesi.com/wp-content/uploads/2020/10/jude-beck-J1noPUvNx9s-unsplash-scaled.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+/* 		border: 1px solid black;
+		content: "";
+		height: 35%;
+		margin-left: 4px;
+
+}
+
+
+
+.featured-products-section {
+/*     border: 1px solid black; */
+/*     padding: 2rem 1rem;
+} */
+
+.featured-products-section .theme-twentytwenty .wc-block-grid.has-3-columns .wc-block-grid__product, .wc-block-grid.has-3-columns .wc-block-grid__product {
+/* 	border: 1px solid black; */
+	background: #fff;
+}
+
+.featured-products-section
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+	width: 80%;
+	padding-top: 3rem;
+}
+
+.all-shirts-button {
+		background: url("https://artanddesi.com/wp-content/uploads/2020/10/textarea-border5.png");
+	background-position: center;
+	position: relative;
+	    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 9rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-shirts-button .wp-block-button {
+    margin-bottom: 0rem !important;
+}
+
+.all-shirts-button .wp-block-button__link:not(.has-background) {
+	background: #fff;
+}
+
+ /* .all-shirts-button .wp-block-button a {
+    background: #fff;
+    height: 5rem;
+    width: 100%;
+    width: 11rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+		width: 177px;
+		max-width: 177px;
+} */
+
+.all-shirts-page .wc-block-grid__products .wc-block-grid__product-image img {
+    width: 80%;
+    padding-top: 3rem;
+}
+
+/*  SHOP PAGE CUSTOM STYLES */
+
+h2.woocommerce-loop-category__title {
+    /* transform: translateY(-7.8rem); */
+		/* transform: translateY(-9.5rem); */
+		position: relative;
+    /* bottom: 12.7rem; */
+		bottom: 13.4rem;
+		font-size: 2rem !important;
+}
+
+/* FOOTER CUSTOM STYLES */
+
+
+.footer-widgets {
+	border-bottom: transparent;
+}
+
+ul#menu-footer li::before {
     display: none;
+}
+
+
+.menu-footer-container ul li {
+/* 	border: 1px solid black; */
+	padding: .5rem
+}
+
+.menu-footer-container ul {
+/*     display: flex; */
+		display: none;
+/*     flex-direction: column;
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%; */
+}
+
+.menu-footer-container ul li a {
+	text-decoration: none;
+}
+
+.wpforms-field-container input {
+	border: none !important;
+}
+
+.wpforms-field-container textarea {
+	border: none !important;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+/*     background: url(https://artanddesi.com/wp-content/uploads/2020/10/textarea-border5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    /* padding: 7rem; */
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit]:active {
+    background-color: transparent;
+    border: none;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+     background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 1em;
+    background-size: contain;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    border: none !important;
+    background-color: #fff !important;
+}
+
+.social-media-icons ul {
+	display: flex;
+	position: relative;
+/* 	bottom: 4rem; */
+	align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+	margin: 0 auto;
+}
+
+.social-media-icons ul li {
+	font-size: 2rem;
+}
+
+.site-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+		padding: 0px !important;
+}
+
+
+.site-info a {
+	display: none;
+}
+
+.site-info::before {
+    content: url(https://artanddesi.com/wp-content/uploads/2020/06/artanddesilogotransparent.png);
+    display: flex;
+    transform: scale(0.3);
 }
 
 .storefront-handheld-footer-bar {
 	display: none;
 }
 
-header#masthead {
-    position: fixed;
-    z-index: -1;
-	  width: 100%;
-		background: #000;
-/* clip-path: polygon(0 0, 100% 0, 50% 100%, 50% 99%); */
-		height: 28rem
+/* RESPONSIVE MENU CUSTOM STYLES */
+/*
+div#responsive-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+		background:rgba(255, 255, 255);
+	height: 100%;
 }
 
 
-header#masthead:before {
-	    border-style: solid;
-			border-width: 83px 50vw 0;
-			height: 0;
-/* 			width: 100vw; */
-			border-color: transparent #fff;
-			top: 365px;
-			left: 0;
-			right: 0;
+#responsive-menu-container li.responsive-menu-item a {
+	text-transform: uppercase;
+} */
+
+.storefront-breadcrumb {
+    padding: 6em 0 0 0;
+}
+
+.entry-header {
+	display: none;
+}
+
+.about-page-details {
+    background: white;
+    padding: 2rem;
+}
+
+	@media screen and (max-width: 800px) {
+
+		div#responsive-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+		background:rgba(255, 255, 255);
+	height: 100%;
+}
+
+		#responsive-menu-container #responsive-menu, #responsive-menu-container #responsive-menu ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+		#responsive-menu-container #responsive-menu-wrapper {
+    background: #ffffff;
+    height: 90% !important%;
+    width: 90%;
+}
+
+		#responsive-menu-container #responsive-menu-wrapper {
+    background: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ 		justify-content: flex-end;
+    height: 95% !important;
+    width: 90% !important;
+    align-items: center;justify-content: flex-end;
+    height: 95% !important;
+    width: 90% !important;
+    align-items: center;
+}
+
+#responsive-menu-container #responsive-menu li.responsive-menu-item .responsive-menu-item-link {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+		#responsive-menu-container li.responsive-menu-item {
+			padding: 0rem 3rem 0rem;
+		}
+
+/* end RESPONSIVE MENU CUSTOM STYLES */
+}
+
+		@media screen and (min-width: 768px) {
+
+			.about-filigree {
+				margin: 0;
+			}
+
+			.site-header {
+				z-index: 999;
+			}
+
+			div#responsive-menu-container {
+				display: none !important;
+			}
+
+			.menu-footer-container {
+				margin-bottom: -2rem;
+			}
+
+			.menu-footer-container ul {
+				display: grid;
+				grid-template-columns: 1fr 1fr
+			}
+
+			.menu-footer-container ul li {
+			font-size: 18px;
+			text-transform: uppercase;
+			text-decoration: none;
+			padding: .5rem;
+			display: flex;
+    	justify-content: center;
+			font-weight: bold;
+		}
+
+			.storefront-primary-navigation {
+    		transform: translateY(29px);
+			}
+
+			h2.woocommerce-loop-category__title {
+					/* transform: translateY(-7.8rem); */
+					/* transform: translateY(-9.5rem); */
+					position: relative;
+					/* bottom: 6.9rem; */
+			    bottom: 8.5rem;
+					font-size: 2rem !important;
+			}
+
+	}
+
+
+
+
+	@media screen and (min-device-width: 1068px) {
+			.site-header {
+				position: relative !important;
+		}
+
+			div#responsive-menu-container {
+				display: none !important;
+			}
+
+		.storefront-breadcrumb {
+    	padding: 1em 0;
+		}
+
+		.about-filigree {
+			margin: 0;
+		}
+
+		.upgraded-shirt-section-title .wp-block-media-text__content {
 			position: absolute;
+			background-color: #fff;
+			display: flex;
+			justify-content: center;
+			max-width: 20rem;
+			padding: 0 5rem;
+		}
+
+		h2.woocommerce-loop-category__title {
+				/* transform: translateY(-7.8rem); */
+				/* transform: translateY(-9.5rem); */
+				position: relative;
+				/* bottom: 6.9rem; */
+				bottom: 9.6rem;
+				font-size: 2rem !important;
+		}
+
+/* 		.storefront-primary-navigation {
+    background: rgba(250, 250, 250, 0.5);
+    padding-top: 3rem;
+	} */
 }
 
 
-.site-main {
-    /* margin-bottom: 2.617924em; */
-    padding-top: 11rem;
-}
 
-section.related.products {
-    display: none;
-}
 
-.site-branding .site-title a {
-	color: #fff;
-}
-
-.wc-block-grid {
-	margin-top: -3rem;
-}
+/* 		@media (min-width: 1101px) {
+			.site-header {
+				position: relative !important; */
+/* 			} */
+/* 		} */
